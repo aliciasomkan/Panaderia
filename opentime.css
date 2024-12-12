@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 2rem;
+  }
+  h1 {
+      color: rgb(0, 0, 0);
+  }
+a {
+    color: rgb(81, 5, 80);
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 1.5rem;
+    border-radius: 0.8rem;
+    background-color: #e48db7;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: #df8ec8;
+    color: white;
+    transform: scale(1.1);
+}
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin: 2rem 0; 
+}
+
+
+th, td {
+    padding: 1.2rem;
+    text-align: left; 
+    border: 0.1rem solid #ddd;
+}
+
+
+th {
+    background-color: pink; 
+    color: white; 
+    font-weight: bold;
+}
+
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+
+tr:hover {
+    background-color: #ddd; 
+}
+
+
+.table-container {
+    max-width: 80rem;
+    margin: 0 auto; 
+    overflow-x: auto; 
+}
+body{
+    background-image:url(./Picture/background13.jpg);
+}
+.logo-container {
+    display: inline-block;
+}
+.logo {
+    width: 10rem;
+    height: auto;
+    max-width: 50%;
+}
+
+
+.logo:hover {
+    opacity: 0.8;
+}
+
+.Pink {
+    color: rgb(177, 72, 90);
+}
+
+*::selection {
+    background-color: pink;
+}
+
+.gold {
+    color: goldenrod;
+}
+
+.form-container {
+    background-color: pink;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    max-width: 400px;           
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d1657c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.map{
+    width: 70%;
+    margin: auto;
+}
+

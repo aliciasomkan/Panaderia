@@ -1,0 +1,133 @@
+/*La panaderia*/
+/*body{
+    background-color: rgb(219, 185, 239);
+}*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2rem;
+}
+
+h1 {
+    color: rgb(19, 2, 35);
+}
+
+a {
+    color: rgb(81, 5, 80);
+    display: inline-block
+    ;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 1.5rem;
+    border-radius: 0.8rem;
+    background-color: #e48db7;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: #df8ec8;
+    color: white;
+    transform: scale(1.1);/
+}
+
+body {
+    background-image: url(./Picture/background2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    margin: 0;
+    height: 100vh;
+}
+
+.logo-container {
+    display: inline-block;
+}
+
+
+.logo {
+    width: 10rem;
+    height: auto;
+    max-width: 50%;
+}
+
+
+.logo:hover {
+    opacity: 0.8;
+}
+
+.Pink {
+    color: rgb(177, 72, 90);
+}
+
+*::selection {
+    background-color: pink;
+}
+
+.gold {
+    color: goldenrod;
+}
+
+.dark {
+    color: rgb(110, 18, 18);
+}
+
+.gallery{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.cake {
+    width: 100%;
+    height: auto;
+}
+
+.cakes {
+    width: 50%;
+    height: auto;
+}
+
+.cake1 {
+    width: 120%;
+    height: auto;
+}
+
+.pora {
+    background-color: white;
+    border: 1rem solid #ddd;
+    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.2);
+    width: 30rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    display: inline-block;
+    margin: 2rem;
+    transform: rotate(-5deg);
+}
+
+.pora img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1rem solid #ddd;
+}
+
+.pora .caption {
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: #555;
+    font-style: italic;
+}
+
+.pora:hover img {
+    transform: scale(1.1) translate(20px, 20px)
+}
+
+.res:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
